@@ -1,0 +1,70 @@
+
+        /*font*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&family=Raleway&display=swap');
+
+
+        /*header*/
+        header{
+            font-size: 60px;
+        }
+
+        /*article*/
+        div.engText{
+            color:black;
+            font-size: 30px;
+            font-family: 'Raleway', sans-serif;
+            text-decoration: underline;
+        }
+        div.thaiText{
+            color: #708090;
+            font-family: 'Prompt', sans-serif;
+            font-size: 30px;
+            font-weight: bolder;
+            text-decoration: overline;
+        }
+        div.numText{
+            color: #FFA500;
+            font-size: 30px;
+            font-family: 'Raleway', sans-serif;
+            text-decoration: line-through;
+        }
+        div{
+            text-align: justify;
+            text-align: left;
+          
+        }
+        img#img01{
+            width: 500px;
+            height: 500px;
+            border: solid 5px orangered;
+        }
+        button{
+            width: 50px;
+            height: 50px;  
+        }
+
+        /*box*/
+        div.box-1{
+           width: 100px;
+           height: 100px;
+           background-color: #FFA500;
+           border: solid 5px black ;
+        }
+        div.box-2{
+            width: 100px;
+            height: 100px;
+            background-color: #FFA500;
+            border: dotted 5px black ;
+         }
+         div.box-3{
+            width: 100px;
+            height: 100px;
+            background-color: #FFA500;
+            border: dotted 5px black ;
+            border-radius: 20px;
+         }
+
+
+   
+   

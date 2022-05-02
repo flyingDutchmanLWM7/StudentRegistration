@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        form{
+            border:2px solid blue;
+        }
+        span{
+            border: 2px solid red;
+        }
+        input{
+            border: 2px solid gold;
+        }
+    </style>
+</head>
+<body>
+    <h1 >แบบฟอร์มลงทะเบียน</h1>
+    <form >
+       <div>
+          <label for="firstname">ชื่อจริง</label>
+          <input type="text" name="fname" placeholder="ป้อนชื่อจริงของคุณ(ก ฮ)" value="suttiphong" required>
+       </div>
+       <div>
+        <label for="lastname">นามสกุล</label>
+        <input type="text" name="lname" placeholder="ป้อนนามสกุลของคุณ" required>
+       </div>
+       <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="ป้อนอีเมลของคุณ">
+       </div>
+       <div>
+        <label for="password">password:</label>
+        <input type="password" name="password">
+       </div>
+       <div>
+           <label for="text">ที่อยู่</label>
+           <textarea name="text" cols="15" rows="5"></textarea>
+       </div>
+       <div>
+        <label for="text">อายุ</label>
+        <input type="number" name="age" min="0" max="10" value="2" readonly> 
+       </div>
+       <div>
+        <label for="date">วันเกิด</label>
+        <input type="date" name="dob"> 
+       </div>
+       <div>
+        <label for="date">Tel: </label>
+        <input type="tel" name="dob"> 
+       </div>
+       <div>
+        <label for="date">Color </label>
+        <input type="color" name="color"> 
+       </div>
+       <div>
+        <label for="date">ช่วงตัวเลข </label>
+        <input type="range" name="rangeNo" value="50"> 
+       </div>
+       <div>
+           <label for="educat">ระดับการศึกษา </label>
+           <select name="educat" id="">
+                 <option value="ปริญญาตรี" selected>ปริญญาตรี</option>
+                 <option value="มัธยม">มัธยม</option>
+                 <option value="ประถมศึกษา">ประถมศึกษา</option>
+           </select>
+       </div>
+       <div>
+           <label for="gender">gender</label>
+           <input type="radio" name="gender"> เพศชาย
+           <input type="radio" name="gender"> เพศหญิง
+           <input type="radio" name="gender"> กำหนดเอง
+       </div>
+       <div>
+        <label for="educat">สิ่งที่ชอบ </label>
+        <input type="checkbox" name="fav">เขียนเว็บ
+        <input type="checkbox" name="fav">เขียนเว็บ
+        <input type="checkbox" name="fav">เขียนเว็บ
+        <input type="checkbox" name="fav">อื่นๆ
+       </div>
+       <div>
+        <label for="document">แนบเอกสาร</label>
+        <input type="file">
+       </div>
+        <div>
+        <label for="web">ระบุเว็บไซต์</label>
+        <input type="url">
+       </div>
+       <div>
+        <button type="submit">แสดงข้อมูล</button>
+       </div>
+       <div>
+           <button type="reset">ล้างข้อมูล</button>
+           <input type="reset" value="ล้างข้อมูล"> 
+       </div>
+    </form>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Tempora, libero! Odit expedita omnis rem quia quo modi natus. 
+        Nobis sed minima a recusandae saepe laudantium laborum blanditiis et esse sint.</span>
+</body>
+</html>

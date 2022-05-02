@@ -1,0 +1,26 @@
+.dark-theme .side-nav {
+    background-color: #2d353c;
+    color: #E0E0E0;
+    box-shadow: none;
+}
+
+.gx-sidebar {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    display: flex;
+    margin-top: 50px;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    min-width: 280px;
+    max-width: 280px;
+    height: 100%;
+    background-color: #252525;
+    color: #a1a1a1;
+    z-index: 1045;
+}

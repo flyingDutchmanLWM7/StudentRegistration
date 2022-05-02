@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="welcome()">
+
+    <!-- event Listerner -->
+    <label for="">Select your tool </label>
+    <select name="" id="menuListerner">
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+        <option value="Bootstrap">Bootstrap</option>
+    </select>
+    <p id="display"></p>
+    <button id="btn">Notification</button>
+
+    <!-- domEvent -->
+    <br><br><br><br>
+    <hr>
+    <div id="box2">
+        <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+        Labore tempore odit velit voluptatem delectus officia in inventore?  <br>
+        Omnis nam impedit magni et! Accusamus, laboriosam iusto modi quis consequuntur minus voluptas.
+        </p>
+    </div>
+    <label for="">Select your tool </label>
+    <select name="" id="menu" onchange="getMenu()">
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+        <option value="Bootstrap">Bootstrap</option>
+    </select>
+    <p id="display"></p>
+    <a href="" onmouseover="linkHightLight(this)" onmouseout="unLinkHightLight(this)">menu 1</a>
+    <a href="" onmouseover="linkHightLight(this)" onmouseout="unLinkHightLight(this)">menu 2</a>
+    <label for="">Name</label>
+    <input type="text" placeholder="press your name" onfocus="hightlight(this)" onblur="unhightlight(this)">
+    <br><br>
+    <hr>
+
+    <!-- classNode -->
+    <div id="box">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Labore tempore odit velit voluptatem delectus officia in inventore?  <br>
+            Omnis nam impedit magni et! Accusamus, laboriosam iusto modi quis consequuntur minus voluptas.</p>
+    </div>
+    <button onclick="addClassDarkMode()">Insert Style</button>
+    <button onclick="deleteClass()">Delete Style</button>
+    <button onclick="changeClass()">Change Style</button>
+
+    <ul id="menu">
+        <li id="item-1">A</li>
+        <li id="item-2">B</li>
+        <li id="item-3">C</li>
+        <li id="item-4">D</li>
+    </ul>
+    <button onclick="addItem();">Add item</button>
+    <button onclick="removeItem();">Delelte item</button>
+    <button onclick="replaceItem();">Replace item</button>
+
+    <div class="box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+        Reprehenderit fuga rerum odit odio sint. Consequatur, inventore ex velit id nam quisquam, <br>
+        soluta molestiae at neque autem, labore totam culpa voluptatibus.<br>
+    </div>
+    <button onclick="darkMode()">Dark mode</button>
+    <button onclick="lightMode()">Light mode</button>
+
+    <script src="eventListerner.js"></script>
+    <script src="domEvent.js"></script>
+    <script src="app.js"></script><!-- import javaScript -->
+</body>
+</html>

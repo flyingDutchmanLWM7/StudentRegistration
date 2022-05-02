@@ -1,0 +1,11 @@
+nav .nav-item:hover {
+    background-color: #525252 !important
+}
+
+nav .nav-item .fa {
+    transition: all 1s
+}
+
+nav .nav-item:hover .fa {
+    transform: rotate(360deg)
+}

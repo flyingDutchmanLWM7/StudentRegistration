@@ -1,0 +1,60 @@
+
+body{
+    background-color: grey;
+    color: black;
+    text-align: center;
+    padding: 100px;
+}
+h1{
+    display: none; /*ปิดการแสดงผลไว้ก่อน*/
+}
+
+/* smartphone 0-500 */
+@media only screen and (max-width:500px) { /*ให้แสดงผลในหน้าจอที่มีความกว้างสูงสุด 500px */
+    body{
+        background-color: azure;
+    }
+    #smartphone h1{
+        display: block;
+    }
+}
+
+/* tablet 501px-768px */
+@media (min-width:501px) and (max-width:768px) { 
+    body{
+        background-color: blue;
+        color: white;
+    }
+    #tablet h1{
+        display: block;
+    }
+}
+
+/* Laptop desktop  769px-1200px*/
+@media (min-width:769px) and (max-width:1200px){
+    body{
+        background-color: black;
+        color: aquamarine;
+    }
+    #normal h1{
+        display: block;
+    }
+}
+
+/* widescreen */
+@media (min-width:1201px) {
+    #widescreen h1{
+        display: block;
+    }
+}
+
+/* landscape height<=500 */
+@media (max-height:500px){
+    body{
+        background-color: orangered;
+    }
+    #landscape h1{
+        display: block;
+    }
+}
+

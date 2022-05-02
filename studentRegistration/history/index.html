@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- Dropdown Menu -->
+         <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <!-- Content -->
+            <div class="container">
+                <!-- Brand -->
+                <a href="#" class="navbar-brand">ลงทะเบียนเรียน</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="navbarToggle">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown Product</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">เฟอร์นิเจอร์</a></li>
+                                <li><a href="#" class="dropdown-item">อุปกรณ์คอมพิวเตอร์</a></li>
+                                <li><a href="#" class="dropdown-item">อุปกรณ์คอมพิวเตอร์2</a></li>
+                            </ul>
+                        </li>
+                        <form class="d-flex" style="margin-left: 450px;" action="">
+                            <input type="text" class="form-control me-2" placeholder="ป้อนข้อมูล">
+                            <input type="submit" value="ค้นหา" class="btn btn-dark">
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+         <!-- side-nav top --> 
+            <nav id="menu" class="side-nav gx-sidebar" style="height: 1500px;">
+                <!-- Content -->
+                <div class="navbar-expand-lg">
+                    <!-- Brand -->
+                    <a href="#" class="sidebar-header">Suliang Galesnjak</a>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Menu -->
+                    <div class="main-menu navbar-collapse collapse ps" id="navbarToggle">
+                        <ul class="nav-menu">
+                            <li class="nav-header">
+                                <span id="contentPlace" class="nav-text">SETTING</span>
+                            </li>
+                            <li class="menu no-arrow">
+                                <span id="contentPlacegg" class="nav-text">Thai</span>
+                            </li>
+                            
+                        </ul>
+                        <div class="ps_rail-x" style="left: 0px; bottom: 0px;">
+                            <div class="ps_thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                        </div>
+                        <div class="ps_rail-y" style="top: 0px; right: 0px;">
+                            <div class="ps_thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div>
+                        </div>
+    
+                    </div>
+                </div>
+            </nav>
+
+            <!-- JavaScript Widget -->
+          <!-- Modal -->
+        <button class="btn btn-primary" data-bs-target="#showForm" data-bs-toggle="modal">ลงทะเบียน</button>
+
+        <div class="modal fade" id="showForm">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">แบบฟอร์มลงทะเบียน</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label>ชื่อ</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>นามสกุล</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>เบอร์โทรศัพท์</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal">ยกเลิก</button>
+                        <button class="btn btn-success">บันทึกข้อมูล</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+
+</body>
+</html>

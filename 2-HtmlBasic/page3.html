@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3</title>
+    <style>
+        div 
+        {
+          border: 1px solid black;
+        }
+        span 
+        {
+          border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>รายการสินค้า</h1></center>
+    <table border="1"align="center" cellpadding="10" cellspacing="10">
+        <thead> <!--thead คือ Attribute ของตาราง-->
+            <th>รหัสสินค้า</th>
+            <th>ภาพสินค้า</th>
+            <th>ชื่อสินค้า</th>
+            <th>ราคา</th>
+            <th>ซื้อสินค้า</th>
+        </thead>
+        <tbody align="center">
+            <tr bgcolor="pink" align="center"> <!--tr คือแถว-->
+                <td>P0001</td>
+                <td>
+                    <img src="https://cdn.pixabay.com/photo/2016/10/25/13/28/papaya-salad-1768888__480.jpg" 
+                    alt="" width="50" height="50">
+                </td>
+                <td bgcolor="red">ส้มตำ</td>
+                <td>150.00</td>
+                <td rowspan="2" align="center"><a href="#">สั่งซื้อ</a>
+                </td>
+            </tr> 
+            <tr bgcolor="yellow" align="center">
+                <td>P0002</td>
+                <td>
+                    <img src="https://cdn.pixabay.com/photo/2012/07/29/20/02/orange-red-king-devil-53316__340.jpg" 
+                    alt="" width="50" height="50">
+                </td>
+                <td bgcolor="blue">ดอกไม้</td>
+                <td>300.00</td>
+                </td>
+            </tr>
+            <tr></tr>
+            <tfoot> <!--แสดงผลข้อมูลท้ายตาราง-->
+                <tr>
+                    <td colspan="5" align="center">ราคารวม: 500</td>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+
+    <span>ggggg</span>
+    <span>ggggg</span>
+    <span>ggggg</span>
+    <div>ggggg</div>
+    <div>ggggg</div>
+    <div>ggggg</div>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b9d264c4ba.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleWorkshop.css">
+    
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+         <div class="container">
+             <a href="0_bootstrapWorkshop.html" class="navbar-brand">Guest xxxxxxx</a>
+             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+             <!-- navbar menu -->
+             <div id="navbar1" class="collapse navbar-collapse">
+                 <ul class="navbar-nav ms-auto">
+                     <li class="nav-item">
+                         <a href="0_bootstrapWorkshop.html" class="nav-link">หน้าแรก</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#service" class="nav-link">บริการ</a>
+                    </li>
+                     <li class="nav-item">
+                        <a href="#about" class="nav-link">เกี่ยวกับเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modalContact">ติดต่องาน</a>
+                    </li>
+                 </ul>
+             </div>
+         </div>
+    </nav>
+
+    <!-- Slider -->
+    <section id="slider">
+            <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+                <ol class="carousel-indicators">
+                    <button data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+                    <button data-bs-target="#mySlider" data-bs-slide-to="1" ></button>
+                    <button data-bs-target="#mySlider" data-bs-slide-to="2" ></button>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-image-1 active">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block">
+                                <h1 class="display-3">พระอาทิตย์ตกดิน</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, impedit!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-image-2">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block">
+                                <h1 class="display-3">ดอกทานตะวัน</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, impedit!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-image-3">
+                        <div class="container">
+                            <div class="carousel-caption  d-none d-sm-block">
+                                <h1 class="display-3">ทะเล</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, impedit!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+    </section>
+
+    <!-- Service Section -->
+    <section id="service">
+     <div class="container mt-5 mb-0">
+         <div class="row">
+             <div class="col-md-4 text-center mb-2">
+                <i class="fa-solid fa-3x fa-people-line mb-2"></i>
+                 <h3>Title Text</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, praesentium labore eius dignissimos pariatur modi odit repellat, quis consequatur amet, reprehenderit magni rerum perspiciatis dolore. Odio cumque vel aperiam ut.</p>
+             </div>
+             <div class="col-md-4 text-center mb-2">
+                <i class="fa-solid fa-3x fa-people-line mb-2"></i>
+                <h3>Title Text</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita laborum vitae quo harum ipsam animi eaque quaerat exercitationem, eum unde ipsa alias autem, impedit veritatis. Consectetur voluptatem dicta nulla iusto?</p>
+            </div>
+            <div class="col-md-4 text-center mb-2">
+                <i class="fa-solid fa-3x fa-people-line mb-2"></i>
+                <h3>Title Text</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sapiente quia possimus doloribus odit nobis rerum vel incidunt nam odio. Molestias, corporis? Beatae deserunt temporibus dignissimos at nesciunt.</p>
+            </div>
+         </div>
+     </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="my-2">
+        <div class="dark-overlay">
+             <div class="row">
+                 <div class="col">
+                     <div class="container pt-5">
+                         <h1>About me</h1>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quisquam velit. Doloribus alias deleniti explicabo eveniet perspiciatis cupiditate consequatur ullam?</p>
+                     </div>
+                 </div>
+             </div>
+        </div>
+    </section>
+
+    <!-- gallery  -->
+    <section id="gallery" class="p-5">
+       <div class="container">
+            <h1 class="text-center">We Gallery</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias ipsa, dolorem, quasi tempora vel amet quod ab sequi et temporibus ratione quisquam consequatur voluptate pariatur suscipit placeat, tempore delectus. Labore?</p>
+        <!-- image -->
+           <div class="row mb-4">
+              <div class="col-md-4">
+               <img src="https://cdn.pixabay.com/photo/2015/08/11/12/33/china-airlines-884385__340.jpg"  class="img-fluid">
+              </div>
+              <div class="col-md-4">
+                <img src="https://cdn.pixabay.com/photo/2015/08/11/12/33/china-airlines-884385__340.jpg" class="img-fluid">
+               </div>
+               <div class="col-md-4">
+                <img src="https://cdn.pixabay.com/photo/2015/08/11/12/33/china-airlines-884385__340.jpg" class="img-fluid">
+               </div>
+           </div>
+           <div class="row mb-4">
+              <div class="col-md-4">
+               <img src="https://cdn.pixabay.com/photo/2015/08/11/12/33/china-airlines-884385__340.jpg"  class="img-fluid">
+              </div>
+              <div class="col-md-4">
+                <img src="https://cdn.pixabay.com/photo/2015/08/11/12/33/china-airlines-884385__340.jpg" class="img-fluid">
+               </div>
+               <div class="col-md-4">
+                <img src="https://cdn.pixabay.com/photo/2015/08/11/12/33/china-airlines-884385__340.jpg" class="img-fluid">
+               </div>
+           </div>
+           <div class="row mb-4">
+              <div class="col-md-4">
+               <img src="https://cdn.pixabay.com/photo/2015/08/11/12/33/china-airlines-884385__340.jpg"  class="img-fluid">
+              </div>
+              <div class="col-md-4">
+                <img src="https://cdn.pixabay.com/photo/2015/08/11/12/33/china-airlines-884385__340.jpg" class="img-fluid">
+               </div>
+               <div class="col-md-4">
+                <img src="https://cdn.pixabay.com/photo/2015/08/11/12/33/china-airlines-884385__340.jpg" class="img-fluid">
+               </div>
+           </div>
+       </div>
+    </section>
+    
+    <!-- footer -->
+    <footer class="text-center p-4 bg-dark">
+        <div class="row">
+            <div class="col pt-2" style="color: azure;">
+                <p>Copyright &copy; KongRukisam Official 2021</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="modalContact">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ติดต่องาน</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                     <form action="">
+                         <div class="form-group">
+                             <label for="">อีเมล</label>
+                             <input class="form-control" type="email" placeholder="ป้อนอีเมลของคุณ">
+                         </div>
+                         <div class="form-group">
+                            <label for="">หัวข้อติดต่องาน</label>
+                            <input class="form-control" type="text" placeholder="เสนอหัวข้องานของคุณ">
+                        </div>
+                        <div class="form-group">
+                            <label for="">รายละเอียด</label>
+                            <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                     </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">ยกเลิก</button>
+                    <button class="btn btn-success">ส่งข้อมูล</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
